@@ -51,7 +51,7 @@ public class Turismo extends DePasajeros {
      
     @Override
     public String toString() {
-        return  "Turismo{" + "asientoCama=" + asientoCama + ", serviBar=" + serviBar + '}'+ super.toString();
+        return  "Turismo\n" + "asientoCama: " + asientoCama + ", serviBar: " + serviBar + super.toString();
     }
     
 }
