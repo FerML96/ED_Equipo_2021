@@ -61,7 +61,7 @@ public abstract class Camion {
 
     @Override
     public String toString() {
-        return "Camion\n" + "marca=" + marca + ", numMotor=" + numMotor + ", placas=" + placas;
+        return "Camion\n" + "marca: " + marca + ", numMotor: " + numMotor + ", placas: " + placas;
     }
     
 }
